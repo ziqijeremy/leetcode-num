@@ -13,3 +13,4 @@ leetcode
 96 Uniqeu Binary Search Trees 递推得到
 62 Unique Paths 2D matrix dp
 63 Unique Paths II 2D matrix dp
+494 Target Sum 1D dp
