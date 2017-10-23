@@ -35,3 +35,6 @@ leetcode
 12 Integer to Roman list it out and the sum them up to a string
 13 Roman to Integer we need to calculate every position indivisually, and then if(pre < cur) sum+=cur - 2*pre else sum+= cur
 123 Best Time to Buy and Sell Stock III smae idea with the 188,use tow vectors and dp them.
+120 Triangle dp, add up from bottom to top
+312 Burst Balloons 2D dp it means start points and end points. len = 1-n, left = 1-n - len + 1 k = left - right
+    dp[left][right] = max(dp[left][right], nums[left - 1] * nums[k] * nums[right + 1] + dp[left][k - 1] + dp[k + 1][right])
