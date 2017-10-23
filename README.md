@@ -21,4 +21,17 @@ leetcode
 467 Unique Substrings in Wraparound String 用一个26长的vector记录以他结尾string的最长长度，然后就是直接加
 139 Word Break 1D dp 检查到哪一位可以使正确的
 322 Coin Change 1D dp 金额的递推方程
-188. Best Time to Buy and Sell Stock IV dp consider release and hold.
+188 Best Time to Buy and Sell Stock IV dp consider release and hold.
+638 Shopping Offers dfs with normal methods
+689 Maximum Sum of 3 Non-Overlapping Subarrays
+    1.first sum up the total into a array
+    2.get the left position of the k number of sum.
+    3.get the right position of the k number of sum.
+    4.random made it up through a for
+2 Add Two Numbers new a linkedlist
+7 Reverse Integer consider the number larger than the INT_MAX. so if(new_num > (INT_MAX - x) / 10) return 0;
+8 String to Integer (atoi) remember use double to store it
+9 Palindrome Number consider negative number
+12 Integer to Roman list it out and the sum them up to a string
+13 Roman to Integer we need to calculate every position indivisually, and then if(pre < cur) sum+=cur - 2*pre else sum+= cur
+123 Best Time to Buy and Sell Stock III smae idea with the 188,use tow vectors and dp them.
