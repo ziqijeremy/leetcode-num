@@ -14,3 +14,9 @@ leetcode
 62 Unique Paths 2D matrix dp
 63 Unique Paths II 2D matrix dp
 494 Target Sum 1D dp
+486 Predict the Winner 2D dp dp(i, j) = max(nums[j] - dp(i, j-1), nums[i] - dp(i+1, j))
+    dp[i][j] means that the array from i to j, player 1 can get points.
+474 Ones and Zeros 2D dp it represent the number of ones and zeros.
+472 Concatenated Words dfs use unordered_set to store the words that cannot be composed by the other
+467 Unique Substrings in Wraparound String 用一个26长的vector记录以他结尾string的最长长度，然后就是直接加
+139 Word Break 1D dp 检查到哪一位可以使正确的
