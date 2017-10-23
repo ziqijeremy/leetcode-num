@@ -20,3 +20,4 @@ leetcode
 472 Concatenated Words dfs use unordered_set to store the words that cannot be composed by the other
 467 Unique Substrings in Wraparound String 用一个26长的vector记录以他结尾string的最长长度，然后就是直接加
 139 Word Break 1D dp 检查到哪一位可以使正确的
+322 Coin Change 1D dp 金额的递推方程
