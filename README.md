@@ -39,3 +39,4 @@ leetcode
 312 Burst Balloons 2D dp it means start points and end points. len = 1-n, left = 1-n - len + 1 k = left - right
     dp[left][right] = max(dp[left][right], nums[left - 1] * nums[k] * nums[right + 1] + dp[left][k - 1] + dp[k + 1][right])
 303 Range Sum Query - Immutable sum to a array, return with minus.
+304 Range Sum Query 2D - Immutable sum to a matrix, return with minus
