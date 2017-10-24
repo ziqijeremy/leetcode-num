@@ -40,3 +40,5 @@ leetcode
     dp[left][right] = max(dp[left][right], nums[left - 1] * nums[k] * nums[right + 1] + dp[left][k - 1] + dp[k + 1][right])
 303 Range Sum Query - Immutable sum to a array, return with minus.
 304 Range Sum Query 2D - Immutable sum to a matrix, return with minus
+516 Longest Palindromic Subsequence 2D dp dp[i][i] = 1; ifs[i] == s[j] dp[i][j] = max(dp[i + 1][j], dp[i][j - 1], dp[i - 1][j - 1] + 2)
+    else dp[i][j] = max(dp[i + 1][j], dp[i][j - 1], dp[i - 1][j - 1])
