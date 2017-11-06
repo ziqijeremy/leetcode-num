@@ -42,3 +42,4 @@ leetcode
 304 Range Sum Query 2D - Immutable sum to a matrix, return with minus
 516 Longest Palindromic Subsequence 2D dp dp[i][i] = 1; ifs[i] == s[j] dp[i][j] = max(dp[i + 1][j], dp[i][j - 1], dp[i - 1][j - 1] + 2)
     else dp[i][j] = max(dp[i + 1][j], dp[i][j - 1], dp[i - 1][j - 1])
+24. Swap Nodes in Pairs 注意指针的变换
